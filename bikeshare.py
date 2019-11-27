@@ -4,7 +4,7 @@ import numpy as np
 from IPython.display import display
 
 
-
+# the dictionaries used for user inputs
 CITY_DATA = { 'Chicago': 'chicago.csv', 'New York City': 'new_york_city.csv', 'Washington': 'washington.csv' }
 
 Days_of_Week =  {'Monday':0, 'Tuesday':1, 'Wednesday':2, 'Thursday':3, 'Friday':4, 'Saturday':5, 'Sunday':6, 'All':'All'}
@@ -42,6 +42,7 @@ def get_filters():
     day = chosen_day
     
     print('-'*40)
+    #choices summary
     print('The statistics will be calculated based on these filters:\n' + 'City:', city, '-' ,'Month:', month,'-' , 'Day of week:', day)
     print('-'*40)
     return city, month, day
