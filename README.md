@@ -14,3 +14,4 @@ gitingore
 3 csv data files downloaded from udacity
 
 ### Credits
+Some of comments and docstrings in the script were made by udacity team as part of the guiding template
