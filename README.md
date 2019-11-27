@@ -1,15 +1,16 @@
 ### Date created
-Include the date you created this project and README file.
+This file was created on Wednesday 27th November 2019
 
 ### Project Title
-Replace the Project Title
+Bikeshare Data analysis
 
 ### Description
-Describe what your project is about and what it does
+This project provides quick statistical analysis for bikeshare data based on user input and choices. This project was created for educational purposes and for Udacity assessment.
 
 ### Files used
-Include the files used
+bikeshare python script
+readme
+gitingore
+3 csv data files downloaded from udacity
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
