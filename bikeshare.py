@@ -101,15 +101,13 @@ def time_stats(df):
 
 
     # TO DO: display the most common day of week
-    dow = df['day_of_week'].mode()[0]
-    dow_count = df['day_of_week'].value_counts()[0]
-    print('The most common day of week is:', dow, '- count:', dow_count)
+    dow_count = df['day_of_week'].value_counts()
+    print('The most common day of week is:', dow_count.index[0], '- count:', dow_count[0])
 
 
     # TO DO: display the most common start hour
-    hour = df['Start Time'].dt.hour.mode()[0]
-    hour_count = df['Start Time'].dt.hour.astype('str').value_counts()[0]
-    print('The most common start hour is:', hour,'- count:',hour_count)
+    hour_count = df['Start Time'].dt.hour.astype('str').value_counts()
+    print('The most common start hour is:', hour_count.index[0],'- count:',hour_count[0])
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
